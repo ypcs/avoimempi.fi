@@ -7,6 +7,11 @@ header {
         background: url('../img/heart_35.png') no-repeat left center transparent;
         padding-left: 50px;
         height: 35px;
+        color: #6ba035;
+        
+        &:link, &:visited {
+            color: #6ba035;
+        }
     }
     
     h2 {
