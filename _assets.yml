@@ -9,7 +9,7 @@ bundles:
         output: gen/common.tmp.css
         contents:
             - common/css/common.scss
-#            - css/menu.scss
+            - css/avoimempi.scss
 
     css_default:
         filters: cssmin
