@@ -5,7 +5,7 @@ function create_commentbox(e) {
     c.attr('id', id);
     c.addClass('cbox');
     
-    
+    $(e).after(c);    
 }
 
 $(document).ready(function() {
