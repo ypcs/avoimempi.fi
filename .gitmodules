@@ -1,3 +1,6 @@
 [submodule "media/common"]
 	path = media/common
 	url = git://github.com/ypcs/site-media.git
+[submodule "ohjelmat/vihreat"]
+	path = ohjelmat/vihreat
+	url = git://github.com/ypcs/vihreat-ohjelmat.git
