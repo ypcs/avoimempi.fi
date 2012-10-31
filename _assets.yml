@@ -18,3 +18,8 @@ bundles:
             - common/css/html5reset-1.6.1.css
             - gen/common.tmp.css
         
+    js_default:
+        filters: jsmin
+        output: gen/scripts-dev.js
+        contents:
+            - js/avoimempi.js
