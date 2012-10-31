@@ -10,3 +10,11 @@ bundles:
         contents:
             - common/css/common.scss
 #            - css/menu.scss
+
+    css_default:
+        filters: cssmin
+        output: gen/styles-dev.css
+        contents:
+            - common/css/html5reset-1.6.1.css
+            - gen/common.tmp.css
+        
