@@ -22,4 +22,5 @@ bundles:
         filters: jsmin
         output: gen/scripts-dev.js
         contents:
+            - common/js/jquery-1.8.2.min.js
             - js/avoimempi.js
