@@ -19,7 +19,7 @@ bundles:
             - gen/common.tmp.css
         
     js_default:
-        filters: jsmin
+        filters: closure_js
         output: gen/scripts-dev.js
         contents:
             - common/js/jquery-1.8.2.min.js
